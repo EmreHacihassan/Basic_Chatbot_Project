@@ -28,7 +28,9 @@ cursor.execute("""
 conn.commit()
 
 # — API key from env or placeholder —
-HF_TOKEN = os.getenv("HF_TOKEN", "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")
+# You have to paste your HuggingFace API key here.
+# You can get your API key from https://huggingface.co/settings/tokens
+HF_TOKEN = os.getenv("HF_TOKEN", "YOUR API KEY HERE FROM HUGGINGFACE DELETE THIS SENTENCE AND PASTE YOUR KEY HERE")
 
 class ChatApp:
     def __init__(self, root):
