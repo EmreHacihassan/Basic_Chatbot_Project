@@ -1,0 +1,1 @@
+Hi this is the Basic Chatbot Project  that i made it with using Mistral.
